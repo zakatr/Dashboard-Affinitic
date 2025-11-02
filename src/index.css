@@ -1,0 +1,68 @@
+/* === FONT === */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+/* === RESET GLOBAL === */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  background-color: #f5f6fa;
+  color: #1c252e;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* === LINKS / TEXT === */
+a {
+  color: #1877f2;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+a:hover {
+  opacity: 0.8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: #1c252e;
+}
+
+/* === LAYOUT === */
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  min-height: 100vh;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+/* === CONTAINERS === */
+.container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  .App {
+    gap: 1.5rem;
+  }
+  .container {
+    padding: 0 1rem;
+  }
+}

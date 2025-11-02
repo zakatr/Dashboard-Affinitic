@@ -1,0 +1,39 @@
+/* Banner.css */
+.banner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto; /* ✅ natural image ratio */
+  display: block;
+}
+
+.banner-clock {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    height: 220px; /* ✅ fixed smaller height */
+  }
+
+  .banner-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* ✅ crop image if needed */
+  }
+
+  .banner-clock {
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    scale: 1.1;
+  }
+}
