@@ -33,26 +33,17 @@ Le dashboard :
 
 ### Installation
 
-# Installer les dépendances de base
-
 npm install
 
-# Ajouter les principales librairies
-
-npm install react react-dom
-npm install vite typescript @types/react @types/react-dom
-npm install zustand
-npm install --save-dev jest @types/jest ts-jest
-
-# Lancement
+### Lancement
 
 npm run dev
 
-# Test
+### Test
 
 npm run test
 
-### A améliorer
+## A améliorer
 
 Optimisation des appels
 Ajout d'autres modules
