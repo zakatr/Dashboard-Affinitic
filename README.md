@@ -1,4 +1,4 @@
-# Dashboard Trains – Nivelles
+# Dashboard
 
 Dashboard interne affiché sur un écran au bureau de Nivelles.  
 Il montre en temps réel les prochains trains, leurs retards moyens, le taux d’annulation et l’heure actuelle, à partir de l’API publique iRail.
@@ -45,5 +45,6 @@ npm run test
 
 ## A améliorer
 
-Optimisation des appels
-Ajout d'autres modules
+- Optimisation des appels
+- Ajout d'autres modules
+- Tests
